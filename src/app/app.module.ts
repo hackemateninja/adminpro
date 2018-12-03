@@ -12,6 +12,7 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
 import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PagesComponent } from './pages/pages.component';
+import { RegisterComponent } from './login/register.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PagesComponent } from './pages/pages.component';
     HeaderComponent,
     SidebarComponent,
     BreadcrumbsComponent,
-    PagesComponent
+    PagesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
